@@ -44,3 +44,13 @@ let s3 = true;
 console.log(typeof s1);
 console.log(typeof s2);
 console.log(typeof s3);
+
+
+//Додаткове завдання
+let firstName1= prompt('Enter your firstName');
+let middleName1 = prompt('Enter your middleName');
+let age = prompt('Enter your age');
+const result =`${firstName1} ${middleName1} ${age}`;
+console.log(result);
+
+
