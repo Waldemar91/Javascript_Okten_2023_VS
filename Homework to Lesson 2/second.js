@@ -75,7 +75,32 @@ else if (time = 46-59) {console.log('fourthQuarter');}
 let day = {'як записати діапазон від до '}
 
 
-//4.
-
+//4.Timetable - switch
+let numberday = prompt('enter number day of the week');
+switch (numberday) {
+    case '1'://число вводити без одинарних лапок?
+        console.log('Monday!');
+        break;
+    case '2':
+        console.log('Tuesday');
+        break;
+    case '3':
+        console.log('Wednesday');
+        break;
+        case '4':
+        console.log('Thursday');
+        break;
+        case '5':
+        console.log('Friday');
+        break;
+        case '6':
+        console.log('Saturday');
+        break;
+        case '7':
+        console.log('Sunday');
+        break;
+    default:
+        console.log('????');
+}
 
 //5.
