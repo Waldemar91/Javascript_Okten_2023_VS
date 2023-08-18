@@ -104,3 +104,8 @@ switch (numberday) {
 }
 
 //5.
+let y=4;
+let z = 6;
+if (y>z) {console.log('y');}
+else if (y<z) {console.log('z');}
+else (y=z) {console.log('y=z')}
