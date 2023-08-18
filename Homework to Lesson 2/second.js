@@ -67,10 +67,10 @@ else {(console.log('False')};
 
 //2.
 let time = {0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59}
-if (time = 0-15) {console.log('firstQuarter')}
-else if (time = 16-30) {console.log('secondQuarter')}
-else if (time = 31-45) {console.log('thirdQuarter')}
-else if (time = 46-59) {console.log('fourthQuarter')}
+if (time = 0-15) {console.log('firstQuarter');}
+else if (time = 16-30) {console.log('secondQuarter');}
+else if (time = 31-45) {console.log('thirdQuarter');}
+else if (time = 46-59) {console.log('fourthQuarter');}
 //3.
 let day = {'як записати діапазон від до '}
 
