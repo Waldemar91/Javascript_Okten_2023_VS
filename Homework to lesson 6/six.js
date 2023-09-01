@@ -46,7 +46,7 @@ console.log(Arr);
 
 // Не можу осягнути як зробити стрінгові(())
 let k = [10,8,-7,55,987,-1011,0,1050,0];
-let r=k.map((k)=>'k.item');
+let r=k.map((k)=>'k');
 console.log(k)
 
 
@@ -54,6 +54,14 @@ console.log(k)
 //     let nums = [11,21,3];
 // sortNums(nums,'ascending') // [3,11,21]
 // sortNums(nums,'descending') // [21,11,3]
+
+function sortNums(a, b) {
+    if (a > b) return a;
+    // if (a == b) return 0;
+    if (a < b) return b;
+}
+let nums = [ 11, 21, 3 ];
+nums.sort(sortNums);
 //
 // ==========================
 // - є масив
