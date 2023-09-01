@@ -165,3 +165,5 @@ const fooo = (b, ...ssss) => {
     console.log(result)
 }
 fooo(b, 444, 445, 666)
+
+
