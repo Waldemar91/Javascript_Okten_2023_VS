@@ -38,7 +38,7 @@ console.log(str.trim());
 // - Напишіть функцію stringToarray(str), яка перетворює рядок на масив слів.
 // Не вийшло вивести в одинарних лапках - 'ревуть',etc...
 let str1 = 'Ревуть воли як ясла повні';
-let Arr = str1.split('');
+let Arr = str1.split(' ');
 console.log(Arr);
 // let arr = stringToarray(str); ['Ревуть', 'воли', 'як', 'ясла', 'повні']
 //
