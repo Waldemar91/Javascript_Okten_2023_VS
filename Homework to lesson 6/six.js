@@ -57,7 +57,7 @@ console.log(r)
 
 function sortNums(a, b) {
     if (a > b) return a;
-    // if (a == b) return 0;
+    if (a == b) return 0;
     if (a < b) return b;
 }
 let nums = [ 11, 21, 3 ];
