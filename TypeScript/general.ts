@@ -1,3 +1,3 @@
 let str: string = 'asdas';
-str = 100500
+str = "spring"
 
