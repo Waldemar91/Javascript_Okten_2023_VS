@@ -1,6 +1,6 @@
 // Створити функцію конструктор для об'єктів User з полями id, name, surname , email, phone
 // створити пустий масив, наповнити його 10 об'єктами new User(....)
-function User (id, name, surname,email,phone){
+function User (name, surname,email,phone){
     // this.id = id;
     this.name = name;
     this.surname = surname;
@@ -10,15 +10,15 @@ function User (id, name, surname,email,phone){
 }
 let user1= [
     new User(name:'Petro',surname:'Petrenko',email:'petrenko@gmail.com',phone:Oo631025890),
-    new User(name:'Petro',surname:'Petrenko',email:'petrenko@gmail.com',phone:Oo631025890),
-    new User(name:'Petro',surname:'Petrenko',email:'petrenko@gmail.com',phone:Oo631025890),
-    new User(name:'Petro',surname:'Petrenko',email:'petrenko@gmail.com',phone:Oo631025890),
-    new User(name:'Petro',surname:'Petrenko',email:'petrenko@gmail.com',phone:Oo631025890),
-    new User(name:'Petro',surname:'Petrenko',email:'petrenko@gmail.com',phone:Oo631025890),
-    new User(name:'Petro',surname:'Petrenko',email:'petrenko@gmail.com',phone:Oo631025890),
-    new User(name:'Petro',surname:'Petrenko',email:'petrenko@gmail.com',phone:Oo631025890),
-    new User(name:'Petro',surname:'Petrenko',email:'petrenko@gmail.com',phone:Oo631025890),
-    new User(name:'Petro',surname:'Petrenko',email:'petrenko@gmail.com',phone:Oo631025890),
+    new User(name:'Petro',surname:'Petrenko',email:'petrenko@gmail.com',phone:Oo631025891),
+    new User(name:'Petro',surname:'Petrenko',email:'petrenko@gmail.com',phone:Oo631025892),
+    new User(name:'Petro',surname:'Petrenko',email:'petrenko@gmail.com',phone:Oo631025893),
+    new User(name:'Petro',surname:'Petrenko',email:'petrenko@gmail.com',phone:Oo631025894),
+    new User(name:'Petro',surname:'Petrenko',email:'petrenko@gmail.com',phone:Oo631025895),
+    new User(name:'Petro',surname:'Petrenko',email:'petrenko@gmail.com',phone:Oo631025896),
+    new User(name:'Petro',surname:'Petrenko',email:'petrenko@gmail.com',phone:Oo631025897),
+    new User(name:'Petro',surname:'Petrenko',email:'petrenko@gmail.com',phone:Oo631025898),
+    new User(name:'Petro',surname:'Petrenko',email:'petrenko@gmail.com',phone:Oo631025899),
     ]
 console.log(user1)
 
