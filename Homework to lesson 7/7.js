@@ -1,7 +1,7 @@
 // Створити функцію конструктор для об'єктів User з полями id, name, surname , email, phone
 // створити пустий масив, наповнити його 10 об'єктами new User(....)
-function User (name, surname,email,phone){
-    // this.id = id;
+function User (id, name, surname,email,phone){
+    this.id = id;
     this.name = name;
     this.surname = surname;
     this.email = email;
@@ -9,22 +9,35 @@ function User (name, surname,email,phone){
     console.log(this)
 }
 let user1= [
-    new User(name:'Petro',surname:'Petrenko',email:'petrenko@gmail.com',phone:Oo631025890),
-    new User(name:'Petro',surname:'Petrenko',email:'petrenko@gmail.com',phone:Oo631025891),
-    new User(name:'Petro',surname:'Petrenko',email:'petrenko@gmail.com',phone:Oo631025892),
-    new User(name:'Petro',surname:'Petrenko',email:'petrenko@gmail.com',phone:Oo631025893),
-    new User(name:'Petro',surname:'Petrenko',email:'petrenko@gmail.com',phone:Oo631025894),
-    new User(name:'Petro',surname:'Petrenko',email:'petrenko@gmail.com',phone:Oo631025895),
-    new User(name:'Petro',surname:'Petrenko',email:'petrenko@gmail.com',phone:Oo631025896),
-    new User(name:'Petro',surname:'Petrenko',email:'petrenko@gmail.com',phone:Oo631025897),
-    new User(name:'Petro',surname:'Petrenko',email:'petrenko@gmail.com',phone:Oo631025898),
-    new User(name:'Petro',surname:'Petrenko',email:'petrenko@gmail.com',phone:Oo631025899),
+    new User(1,'Petro','Petrenko','petrenko@gmail.com','0631025890'),
+    new User(2,'Petro','Petrenko','petrenko@gmail.com','0631025890'),
+    new User(3,'Petro','Petrenko','petrenko@gmail.com','0631025890'),
+    new User(4,'Petro','Petrenko','petrenko@gmail.com','0631025890'),
+    new User(5,'Petro','Petrenko','petrenko@gmail.com','0631025890'),
+    new User(6,'Petro','Petrenko','petrenko@gmail.com','0631025890'),
+    new User(7,'Petro','Petrenko','petrenko@gmail.com','0631025890'),
+    new User(8,'Petro','Petrenko','petrenko@gmail.com','0631025890'),
+    new User(9,'Petro','Petrenko','petrenko@gmail.com','0631025890'),
+    new User(10,'Petro','Petrenko','petrenko@gmail.com','0631025890'),
+
     ]
 console.log(user1)
 
-
-
 // Взяти масив з  User[] з попереднього завдання, та відфільтрувати , залишивши тільки об'єкти з парними id (filter)
+let user2= [
+    new User(1,'Petro','Petrenko','petrenko@gmail.com','0631025890'),
+    new User(2,'Petro','Petrenko','petrenko@gmail.com','0631025890'),
+    new User(3,'Petro','Petrenko','petrenko@gmail.com','0631025890'),
+    new User(4,'Petro','Petrenko','petrenko@gmail.com','0631025890'),
+    new User(5,'Petro','Petrenko','petrenko@gmail.com','0631025890'),
+    new User(6,'Petro','Petrenko','petrenko@gmail.com','0631025890'),
+    new User(7,'Petro','Petrenko','petrenko@gmail.com','0631025890'),
+    new User(8,'Petro','Petrenko','petrenko@gmail.com','0631025890'),
+    new User(9,'Petro','Petrenko','petrenko@gmail.com','0631025890'),
+    new User(10,'Petro','Petrenko','petrenko@gmail.com','0631025890')
+const evenUsers = id.filter(id => id % 2 === 0);
+console.log(evenUsers);
+
 
 // Взяти масив з  User[] з попереднього завдання, та відсортувати його по id. по зростанню (sort)
 
