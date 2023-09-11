@@ -24,6 +24,7 @@ let user1= [
 console.log(user1)
 
 // Взяти масив з  User[] з попереднього завдання, та відфільтрувати , залишивши тільки об'єкти з парними id (filter)
+function User2 (id, name, surname,email,phone)
 let user2= [
     new User(1,'Petro','Petrenko','petrenko@gmail.com','0631025890'),
     new User(2,'Petro','Petrenko','petrenko@gmail.com','0631025890'),
@@ -34,8 +35,8 @@ let user2= [
     new User(7,'Petro','Petrenko','petrenko@gmail.com','0631025890'),
     new User(8,'Petro','Petrenko','petrenko@gmail.com','0631025890'),
     new User(9,'Petro','Petrenko','petrenko@gmail.com','0631025890'),
-    new User(10,'Petro','Petrenko','petrenko@gmail.com','0631025890')
-const evenUsers = id.filter(id => id % 2 === 0);
+    new User(10,'Petro','Petrenko','petrenko@gmail.com','0631025890')]
+let evenUsers = user2.filter(User.id=> User.id % 2 === 0);
 console.log(evenUsers);
 
 
