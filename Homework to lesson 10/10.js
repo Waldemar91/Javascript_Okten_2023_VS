@@ -1,4 +1,17 @@
-// Створити форму з трьома полями для name,surname,age та кнопкою. При натисканні на кнопку зчитати дані з полів, та вивести об'єкт в документ. Іншими словами : заповниои форму, натиснули кнопку, під формою з'явився блок з вашим об'єктом
+// Створити форму з трьома полями для name,surname,age та кнопкою. При натисканні на кнопку зчитати дані з полів, та вивести об'єкт в документ.
+// Іншими словами : заповнити форму, натиснули кнопку, під формою з'явився блок з вашим об'єктом
+f1.addEventListener('submit', function (e) {
+    e.preventDefault();
+    let name = this.name.value;
+    console.log(name);
+    let surname = this.surname.value;
+    console.log(surname);
+    let age = this.age.value;
+    console.log(age);
+    let obj = {name: name, surname: surname, age: age};
+    localStorage.setItem('userData', JSON.stringify(obj));
+});
+
 
 // є сторінка, на якій є блок, я кому знаходиьтся цифра. написати код, який при кожному перезавантажені сторінки буде додавати до неї +1
 
