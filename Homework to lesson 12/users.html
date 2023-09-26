@@ -11,13 +11,14 @@
 <script>
     fetch('https://jsonplaceholder.typicode.com/users')
         .then(value => value.json())
-        .then(({users}) => {
+        .then((users) => {
 
             let ul = document.getElementById('list');
 
             for (const user of users) {
                 let li = document.createElement('li');
                 let a = document.createElement('a');
+                a.innerText = `$(UserId) - $(UserId) ;
                 a.href = './user-details.html?value=userID' + JSON.stringify(users);
                 li.appendChild(a);
                 ul.appendChild(li);
